@@ -1,0 +1,59 @@
+THE EGRET'S ROOST WEBSITE: HOW TO UPDATE IT
+===========================================
+
+The whole website is two things:
+  index.html   the page (all the words)
+  images/      the photos
+
+-------------------------------------------
+CHANGING A PHOTO (the easy way)
+-------------------------------------------
+Save the new photo into the "images" folder using the SAME name as the
+one you're replacing, so it overwrites the old file. Done. The website
+picks it up automatically.
+
+  house-oceanside.jpg   Big photo at the top (house from the beach)
+  house-street.jpg      Front of the house
+  deck-rockers.jpg      Rocking chairs (large photo in the first collage)
+  deck-upper.jpg        Upper deck view
+  deck-lower.jpg        Lower deck
+  ocean-view.jpg        View over the dunes (also behind "Email Today")
+  screened-porch.jpg    Screened porch with table
+  living-room.jpg       Living room
+  living-dining.jpg     Living room + dining table
+  dining-table.jpg      Close-up at the dining table
+  kitchen.jpg           Kitchen (shows the wine fridge)
+  kitchen-windows.jpg   Kitchen windows
+  bathroom.jpg          Bathroom
+  laundry.jpg           Washer & dryer
+  bedroom-1.jpg ... bedroom-5.jpg   The five bedrooms
+
+Tips:
+ - Photos taken sideways (landscape) look best.
+ - Before uploading, shrink photos to about 1600 pixels wide so the site
+   stays quick. On a Mac: open in Preview > Tools > Adjust Size.
+ - Names must be lowercase and end in .jpg
+
+ADDING A SUNSET PHOTO
+ Save it as images/sunset.jpg, open index.html, search for "deck-upper.jpg"
+ in the "Beautiful Views" part and change it to "sunset.jpg".
+
+ADDING A VIDEO AT THE TOP
+ Save the video as images/house-video.mp4, then in index.html follow the
+ note just under the top photo (search for "VIDEO").
+
+-------------------------------------------
+CHANGING WORDS
+-------------------------------------------
+Open index.html in any plain text editor (TextEdit works: choose
+Format > Make Plain Text). Search for the words you want to change,
+type over them, save. Only change the words BETWEEN the <tags>.
+
+Guest book comments: search for "Guest book comment goes here" and
+replace each one, plus the "Name, Year" line under it. To add another,
+copy a whole <figure class="note"> ... </figure> block and paste it below.
+
+"What's Included" list: each line is a <li> ... </li>. Copy a line to
+add one, delete a line to remove one.
+
+Each year: search for "2027" and change it to the new year.
